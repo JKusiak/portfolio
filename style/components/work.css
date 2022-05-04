@@ -1,0 +1,91 @@
+#work {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 75vw;
+	min-height: 100vh;
+}
+
+#workHeader {
+	text-align: center;
+	margin-top: 10rem;
+	margin-bottom: 3rem;
+	font-size: 40px;
+}
+
+#workGrid {
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.workButton {
+	position: relative;
+	height: 25vh;
+}
+
+.partImage {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 6px;
+	opacity: 100%;
+	visibility: visible;
+	/* different trainsition (ease-in) needed to remove image flicker */
+	transition: opacity ease-in 0.5s; 
+}
+
+.partialButtons {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.partButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50%;
+	width: 100%;
+	opacity: 0;
+	border-radius: 6px;
+	visibility: hidden;
+	transition: opacity ease 0.5s;
+}
+
+.divider {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 85%;
+	border: 1px solid #fafafa;
+	opacity: 0;
+	transition: opacity ease 0.5s;
+}
+
+.workButton:hover .partButton {
+	opacity: 100%;
+	visibility: visible;
+}
+
+.workButton:hover .partImage {
+	opacity: 40%;
+}
+
+.workButton:hover .divider {
+	opacity: 50%;
+}
+
+.partButtonLink {
+	height: 50%;
+}
+
+.partButtonIcon {
+	height: 100%;
+	width: fit-content
+}
+
+.partButtonIcon:hover *:not(:first-child) {
+	stroke: #f48fb1;
+}
+

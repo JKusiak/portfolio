@@ -1,0 +1,66 @@
+#contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	width: 75vw;
+}
+
+#callText {
+	font-size: calc(55px + 1.5vw);
+}
+
+#cvDownloadButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 22px 64px 22px 64px;
+	margin: 64px 0 64px 0;
+	background: #f48fb1;
+	border-radius: 6px;
+}
+
+#cvDownloadButton:hover {
+	background: #f8bbd0;
+	backdrop-filter: blur( 5px );
+	-webkit-backdrop-filter: blur( 5px );
+}
+
+#cvText {
+	margin-left: 6px;
+	color: #141414;
+	font-size: 22px;
+	font-weight: 900;
+}
+
+#cvDownloadImage {
+	width: 26px;
+	height: 26px;
+}
+
+#contacts {
+	display: flex;
+	justify-content: center;
+}
+
+#contact .logoLink:not(:last-child) {
+	margin-right: 2rem;
+}
+
+#contact .contactLogo {
+	width: 96px;
+	height: 96px;
+}
+
+#contact .contactLogo * {
+	transition: all ease 0.3s;
+}
+
+#contact .contactLogo:hover {
+	fill: #f48fb1;
+}
+
+#contact .contactLogo:hover *:not(:first-child){
+	stroke: #f48fb1;
+}

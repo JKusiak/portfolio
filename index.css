@@ -1,77 +1,16 @@
 html, body {
 	font-family: "Lato";
-	height: 100%;
 	width: 100%;
 	margin: 0;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 	background-color: #141414;
 	color: #fafafa;
+	scroll-behavior: smooth;
 }
 
 a {
 	text-decoration: none;
 	color: #fafafa;
-}
-
-nav a:hover {
-	font-weight: bolder;
-}
-
-.selfIntro {
-	font-size: calc(55px + 1.5vw);
-	text-align: center;
-}
-
-@media screen and (min-width: 450px) {
-	#navigation {
-		margin-top: 2em;
-		display: flex;
-		width: 100%;
-		justify-content: space-evenly;
-		font-size: calc(30px + 1vw);
-	}
-}
-
-@media screen and (max-width: 450px) {
-	#navigation {
-		margin-top: 2em;
-		font-size: calc(30px + 1vw);
-	}
-}
-
-#wordContainer {
-	display: inline-block;
-	width: 200px;
-	max-height: inherit;
-}
-
-@keyframes fontChange {
-	0% {
-	  font-family: 'Bebas Neue';
-	}
-	20% {
-	  font-family: 'Inspiration';
-	}
-	40% {
-	  font-family: 'Noto';
-	}
-	60% {
-	  font-family: 'Pacifico';
-	}
-	80% {
-	  font-family: 'Ramaraja';
-	}
-	100% {
-		font-family: 'Shadows into light';
-	}
-}
-
-#wordToAnimate {
-	font-size: 100%;
-	animation-name: fontChange;
-	animation-duration: 0.6s;
-	animation-iteration-count: 5;
 }

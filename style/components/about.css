@@ -1,0 +1,51 @@
+#about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 75vw;
+}
+
+#aboutText {
+	font-size: 24px;
+	width: 45%;
+}
+
+#myPicture {
+	margin-top: 24px;
+	width: 80%;
+	border-radius: 6px;
+}
+
+#skillsContainer {
+	width: 45%;
+	margin-left: auto;
+}
+
+#techHeader {
+	margin-bottom: 2rem;
+	font-size: 40px;
+	text-align: center;
+}
+
+.techSubheader {
+	margin-top: 1rem;
+	font-size: 24px;
+}
+
+#about .skillLogo {
+	height: 72x;
+	width: 72px;
+	margin: 0.5rem 0.5rem 0.5rem 0;
+	transition: transform ease 0.3s;
+}
+
+#about .skillLogo:hover {
+	transform: translate(0.2rem, -1rem);
+}
+
+#about .skillLogo * {
+	fill: #fafafa;
+}
+
+
+
