@@ -3,64 +3,80 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
+	min-height: 77vh;
 	width: 75vw;
+	transform: translateY(-11vh)
 }
 
 #callText {
-	font-size: calc(55px + 1.5vw);
+	font-size: var(--header-font-size);
+	text-align: center;
 }
 
 #cvDownloadButton {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 22px 64px 22px 64px;
-	margin: 64px 0 64px 0;
-	background: #f48fb1;
-	border-radius: 6px;
+	width: min(30vw, 200px);
+	height: min(15vw, 64px);
+	margin-top: min(10vw, 64px);
+	margin-bottom: min(10vw, 64px);
+	background: var(--accent-color);
+	border-radius: 16px;
+	transition: var(--fast-transition);
 }
 
 #cvDownloadButton:hover {
-	background: #f8bbd0;
-	backdrop-filter: blur( 5px );
-	-webkit-backdrop-filter: blur( 5px );
+	background: var(--secondary-color);
 }
 
 #cvText {
-	margin-left: 6px;
-	color: #141414;
+	margin-left: 5%;
+	color: var(--primary-color);
 	font-size: 22px;
 	font-weight: 900;
 }
 
-#cvDownloadImage {
-	width: 26px;
-	height: 26px;
+@media (max-width: 769px) {
+	#cvText {
+		font-size: 16px;
+	}
 }
 
-#contacts {
+#cvDownloadImage {
+	width: fit-content;
+	height: 40%;
+}
+
+#contactsBar {
 	display: flex;
 	justify-content: center;
+	width: fit-content;
+	padding: 1rem;
+	border: 2px dashed var(--accent-color);
+	background: rgba(244, 143, 177, 0.05);
+	border-radius: 16px;
+	backdrop-filter: blur(6px);
 }
 
 #contact .logoLink:not(:last-child) {
-	margin-right: 2rem;
+	margin-right: min(3vw, 2rem);
 }
 
 #contact .contactLogo {
-	width: 96px;
-	height: 96px;
+	width: 100%;
+	height: 100%;
+	max-width: 96px;
 }
 
 #contact .contactLogo * {
-	transition: all ease 0.3s;
+	transition: var(--fast-transition);
 }
 
 #contact .contactLogo:hover {
-	fill: #f48fb1;
+	fill: var(--accent-color);;
 }
 
 #contact .contactLogo:hover *:not(:first-child){
-	stroke: #f48fb1;
+	stroke: var(--accent-color);;
 }

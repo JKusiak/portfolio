@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="2800 -400 537.827 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient-1" x1="0" x2="0" y1="1" y2="0" gradientTransform="rotate(234,0.5,0.5)">
+      <stop offset="0" stop-color="#F48FB1"/>
+      <stop offset="1" stop-color="#FAFAFA"/>
+    </linearGradient>
+    <linearGradient id="gradient-2" x1="0" x2="0" y1="0" y2="1" gradientTransform="rotate(58,0.5,0.5)">
+      <stop offset="0" stop-color="#F48FB1"/>
+      <stop offset="1" stop-color="#FAFAFA"/>
+    </linearGradient>
+  </defs>
+  <path d="M 3103.509 437.98 L 3131.395 390.772 L 3158.134 437.98 L 3103.509 437.98 Z" stroke="url(#gradient-1)" stroke-width="4.619999999999999" fill-opacity="0" stroke-miterlimit="10" style="fill: rgb(186, 218, 85);" transform="matrix(0.069756, 0.997564, -0.997564, 0.069756, 3325.794678, -2737.724365)"/>
+  <circle stroke-width="1.54" transform="matrix(0.034899, 0.999391, -0.999391, 0.034899, 3220.126465, -775.546753)" cx="500" cy="100" r="18.019" stroke="url(#gradient-1)" fill-opacity="0" stroke-miterlimit="10" style="fill: rgb(186, 218, 85);"/>
+  <path d="M 2933.402 483.401 L 2914.842 515.415 L 2877.9 515.415 L 2859.429 483.401 L 2877.9 451.382 L 2914.842 451.382 L 2933.402 483.401 Z" stroke="url(#gradient-2)" stroke-width="1.4" fill-opacity="0" stroke-miterlimit="10" style="fill: rgb(186, 218, 85);" transform="matrix(0.104528, 0.994522, -0.994522, 0.104528, 3074.409424, -2447.678955)"/>
+</svg>

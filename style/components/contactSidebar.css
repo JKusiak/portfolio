@@ -1,0 +1,37 @@
+#contactSidebar {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 20px;
+	transition: var(--slow-transition);
+	z-index: 1;
+}
+
+#contactSidebar .contactLogo {
+	width: 40px;
+	height: 40px;
+}
+
+#contactSidebar .contactLogo * {
+	transition: var(--fast-transition);
+}
+
+#contactSidebar .logoLink:not(:last-child) {
+	margin-bottom: 0.5rem;
+}
+
+#contactSidebar .contactLogo:hover {
+	fill: var(--accent-color);;
+}
+
+#contactSidebar .contactLogo:hover *:not(:first-child){
+	stroke: var(--accent-color);;
+}
+
+@media (max-width: 769px) { 
+	#contactSidebar {
+		display: none;
+	}
+}

@@ -1,16 +1,49 @@
+:root {
+	--primary-color: #141414;
+	--secondary-color: #fafafa;
+	--accent-color: #f48fb1;
+	--secondary-color-dimmed: #fafafa80;
+	--accent-color-dimmed: #f48fb180;
+	--fast-transition: all ease 0.3s;
+	--slow-transition: all ease 0.5s;
+	--header-font-size: calc(22px + 4vw);
+	--subheader-font-size: calc(16px + 2vw);
+	--navigation-height: max(5vh, 45px);
+}
+
 html, body {
 	font-family: "Lato";
-	width: 100%;
 	margin: 0;
+	width: 100vw;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #141414;
-	color: #fafafa;
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
 	scroll-behavior: smooth;
+	scroll-padding-top: var(--navigation-height);
+}
+
+body {
+	background-image: url(/utils/scatter_full_one.svg), url(/utils/scatter_full_two.svg), url(/utils/pattern.svg);
+	background-attachment: scroll, scroll, fixed;
+	background-size: auto;
+	background-repeat: repeat;
 }
 
 a {
 	text-decoration: none;
-	color: #fafafa;
+	color: var(--secondary-color);
+}
+
+@media (min-width: 769px) and (max-width: 1270px) {
+	body {
+		background-image: url(/utils/scatter_mid_one.svg), url(/utils/scatter_mid_two.svg), url(/utils/pattern.svg);
+	}
+}
+
+@media (max-width: 769px) {
+	body {
+		background-image: url(/utils/scatter_mobile_one.svg), url(/utils/scatter_mobile_two.svg), url(/utils/pattern.svg);
+	}
 }

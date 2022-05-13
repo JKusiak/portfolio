@@ -1,61 +1,21 @@
 #intro {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 	min-height: 95vh;
-	width: 75vw;
+	width: 75vw;	
 }
 
 #intro .introText {
-	display: flex;
-	align-items: center;
-	height: 10rem;
-	font-size: calc(55px + 1.5vw);
+	font-size: var(--header-font-size);
 	text-align: center;
-}
-
-#intro .introText:first-of-type {
 	margin-top: auto;
-}
-
-#wordContainer {
-	display: inline-block;
-	width: 15rem;
-}
-
-@keyframes fontChange {
-	0% {
-	  font-family: 'Bebas Neue';
-	}
-	20% {
-	  font-family: 'Inspiration';
-	}
-	40% {
-	  font-family: 'Noto';
-	}
-	60% {
-	  font-family: 'Pacifico';
-	}
-	80% {
-	  font-family: 'Ramaraja';
-	}
-	100% {
-		font-family: 'Shadows into light';
-	}
-}
-
-#wordToAnimate {
-	animation-name: fontChange;
-	animation-duration: 0.6s;
-	animation-iteration-count: 5;
-	color:#f48fb1;
 }
 
 #downArrow {
 	margin-top: auto;
 	padding-bottom: 24px;
-	transition: all ease 0.5s;
+	transition: var(--slow-transition);
 }
 
 #downArrow:hover {
@@ -63,6 +23,6 @@
 }
 
 #downArrow:hover *:not(:first-child) {
-	transition: all ease 0.3s;
-	stroke: #f48fb1;
+	transition: var(--fast-transition);
+	stroke: var(--accent-color);;
 }

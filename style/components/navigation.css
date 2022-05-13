@@ -3,12 +3,13 @@ nav {
 	align-items: center;
 	justify-content: center;
 	width: 100vw;
+	height: var(--navigation-height);
+	min-height: 45px;
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #141414;
 	z-index: 1;
 }
 
@@ -16,29 +17,31 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-width: fit-content;
+	height: 100%;
 	width: 25vw;
-	min-height: 5vh;
-	font-size: 22px;
-	padding: 0 72px 0 72px;
-	border-bottom: 1px solid #fafafa80;
-	transition: width ease 0.5s;
+	min-width: fit-content;
+	padding-right: min(5vw, 4rem);
+	padding-left: min(5vw, 4rem);
+	font-size: min(5vw, 22px);
+	background-color: var(--primary-color);
+	border-bottom: 1px solid var(--secondary-color-dimmed);
+	transition: var(--slow-transition);
 }
 
 #navContent a:not(:last-child) {
-	margin-right: 48px;
+	margin-right: min(7vw, 3rem);
 }
 
 #navContent a {
-	transition: color ease 0.3s;
+	transition: var(--fast-transition);
 }
 
 #navContent a:hover {
 	font-weight: 900;
-	color: #f48fb1;
+	color: var(--accent-color);;
 }
 
 #navContent a.scrollAnimation {
 	font-weight: bold;
-	color: #f48fb1;
+	color: var(--accent-color);;
 }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-700 -1800 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="a" x1="0" x2="0" y1="1" y2="0" gradientTransform="rotate(234,0.5,0.5)">
+      <stop offset="0" stop-color="#F48FB1"/>
+      <stop offset="1" stop-color="#FAFAFA"/>
+    </linearGradient>
+  </defs>
+  <path d="M -389.714 -1702.949 L -345.202 -1778.301 L -302.522 -1702.949 L -389.714 -1702.949 Z" stroke="url(#a)" fill-opacity="0" stroke-miterlimit="10" style="fill: rgb(186, 218, 85); stroke-width: 4px;" transform="matrix(0.997564, -0.069756, 0.069756, 0.997564, 120.57592, -28.383823)"/>
+  <circle transform="matrix(0.999391, -0.034899, 0.034899, 0.999391, 244.460999, -1274.393188)" cx="500" cy="100" r="50.618" stroke="url(#a)" fill-opacity="0" stroke-miterlimit="10" style="fill: rgb(186, 218, 85); stroke-width: 4px;"/>
+  <path d="M -220.308 -1051.375 L -304.073 -1051.375 C -304.073 -1074.506 -285.326 -1093.262 -262.186 -1093.262 C -239.048 -1093.262 -220.308 -1074.506 -220.308 -1051.375 Z" stroke="url(#a)" fill-opacity="0" stroke-miterlimit="10" style="fill: rgb(186, 218, 85); stroke-width: 3px;" transform="matrix(0.906308, -0.422618, 0.422618, 0.906308, 428.615936, -211.2742)"/>
+</svg>

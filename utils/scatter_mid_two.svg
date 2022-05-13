@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="1400 -400 900 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient-5" x1="0" x2="0" y1="1" y2="0" gradientTransform="rotate(234,0.5,0.5)">
+      <stop offset="0" stop-color="#F48FB1"/>
+      <stop offset="1" stop-color="#FAFAFA"/>
+    </linearGradient>
+    <linearGradient id="gradient-6" x1="0" x2="0" y1="0" y2="1" gradientTransform="rotate(58,0.5,0.5)">
+      <stop offset="0" stop-color="#F48FB1"/>
+      <stop offset="1" stop-color="#FAFAFA"/>
+    </linearGradient>
+  </defs>
+  <path d="M 2208.498 459.503 L 2241.408 403.791 L 2272.964 459.503 L 2208.498 459.503 Z" stroke="url(#gradient-5)" stroke-width="4.619999999999999" fill-opacity="0" stroke-miterlimit="10" style="fill: rgb(186, 218, 85);" transform="matrix(0.069756, 0.997564, -0.997564, 0.069756, 2515.022217, -1833.73584)"/>
+  <circle stroke-width="1.54" transform="matrix(0.034899, 0.999391, -0.999391, 0.034899, 2323.323975, -750.523621)" cx="500" cy="100" r="29.14" stroke="url(#gradient-5)" fill-opacity="0" stroke-miterlimit="10" style="fill: rgb(186, 218, 85);"/>
+  <path d="M 1665.031 249.409 L 1642.766 287.816 L 1598.447 287.816 L 1576.288 249.409 L 1598.447 210.997 L 1642.766 210.997 L 1665.031 249.409 Z" stroke="url(#gradient-6)" stroke-width="1.4" fill-opacity="0" stroke-miterlimit="10" style="fill: rgb(186, 218, 85);" transform="matrix(0.104528, 0.994522, -0.994522, 0.104528, 1699.29541, -1388.444824)"/>
+</svg>

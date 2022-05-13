@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-700 -400 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="b" x1="0" x2="0" y1="0" y2="1" gradientTransform="rotate(58,0.5,0.5)">
+      <stop offset="0" stop-color="#F48FB1"/>
+      <stop offset="1" stop-color="#FAFAFA"/>
+    </linearGradient>
+  </defs>
+  <path d="M -527.431 1.546 L -579.43 75.405 L -527.431 149.264 L -475.429 75.405 L -527.431 1.546 Z" stroke="url(#b)" stroke-width="1.4" fill-opacity="0" stroke-miterlimit="10" style="fill: rgb(186, 218, 85);" transform="matrix(0.999657, -0.026177, 0.026177, 0.999657, -2.154615, -13.780687)"/>
+  <rect transform="matrix(0.809017, -0.587785, 0.587785, 0.809017, -723.875854, 427.079498)" x="917.456" y="626.06" width="88.303" height="88.303" stroke="url(#b)" fill-opacity="0" stroke-miterlimit="10" style="fill: rgb(186, 218, 85); stroke-width: 2px;"/>
+  <path d="M 660.708 -230.664 L 622.031 -163.946 L 545.045 -163.946 L 506.552 -230.664 L 545.045 -297.388 L 622.031 -297.388 L 660.708 -230.664 Z" stroke="url(#b)" stroke-width="1.4" fill-opacity="0" stroke-miterlimit="10" style="fill: rgb(186, 218, 85);" transform="matrix(0.994522, -0.104528, 0.104528, 0.994522, 27.30831, 59.742058)"/>
+</svg>

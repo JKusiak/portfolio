@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="1400 -1800 900 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient-5" x1="0" x2="0" y1="1" y2="0" gradientTransform="rotate(234,0.5,0.5)">
+      <stop offset="0" stop-color="#F48FB1"/>
+      <stop offset="1" stop-color="#FAFAFA"/>
+    </linearGradient>
+    <linearGradient id="gradient-6" x1="0" x2="0" y1="0" y2="1" gradientTransform="rotate(58,0.5,0.5)">
+      <stop offset="0" stop-color="#F48FB1"/>
+      <stop offset="1" stop-color="#FAFAFA"/>
+    </linearGradient>
+    <linearGradient id="gradient-7" x1="0" x2="0" y1="0" y2="1" gradientTransform="rotate(58,0.5,0.5)">
+      <stop offset="0" stop-color="#F48FB1"/>
+      <stop offset="1" stop-color="#FAFAFA"/>
+    </linearGradient>
+  </defs>
+  <path d="M 1893.617 -1553.698 L 1836.373 -1553.698 C 1836.373 -1569.506 1849.184 -1582.324 1864.998 -1582.324 C 1880.81 -1582.324 1893.617 -1569.506 1893.617 -1553.698 Z" stroke="url(#gradient-5)" stroke-width="4.619999999999999" fill-opacity="0" stroke-miterlimit="10" style="fill: rgb(186, 218, 85);" transform="matrix(0.422618, 0.906308, -0.906308, 0.422618, -344.286224, -2595.601074)"/>
+  <rect stroke-width="3.08" transform="matrix(0.587785, 0.809017, -0.809017, 0.587785, 2022.258789, -1810.134033)" x="528.156" y="360.407" width="50.834" height="50.834" stroke="url(#gradient-6)" fill-opacity="0" stroke-miterlimit="10" style="fill: rgb(186, 218, 85);"/>
+  <path d="M 1495.581 -1772.17 L 1454.547 -1713.886 L 1495.581 -1655.603 L 1536.616 -1713.886 L 1495.581 -1772.17 Z" stroke="url(#gradient-7)" stroke-width="1.4" fill-opacity="0" stroke-miterlimit="10" style="fill: rgb(186, 218, 85);" transform="matrix(0.999657, -0.026177, 0.026177, 0.999657, 45.376926, 38.562542)"/>
+</svg>

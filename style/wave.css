@@ -1,0 +1,21 @@
+.wave {
+	position: relative;
+}
+
+.reverse {
+	transform: rotate(180deg);
+}
+
+.waveFillSvg {
+	width: 100vw;
+	position: absolute;
+	fill: var(--primary-color);
+}
+
+.waveOutlineSvg {
+	width: 100vw;
+	fill: none;
+	stroke: var(--accent-color);
+	stroke-width: 7px;
+}
+

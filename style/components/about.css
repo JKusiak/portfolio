@@ -2,50 +2,62 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 75vw;
+	align-items: center;
+	width: 100vw;
+
+}
+
+#descriptionContainer {
+	display: flex;
+	width: 75%;
+	justify-content: space-between;
+	align-items: center;
 }
 
 #aboutText {
-	font-size: 24px;
+	text-align: justify;
+	font-size: min(5vw, 22px);
 	width: 45%;
+	padding: 2rem;
+	border: 2px dashed var(--accent-color);
+	background: rgba(244, 143, 177, 0.05);
+	border-radius: 16px;
+	backdrop-filter: blur(6px);
+}
+
+#myPictureBox {
+	display: flex;
+	justify-content: right;
+	width: 45%;
+	transform: translateY(16vh) rotate(11deg);
 }
 
 #myPicture {
-	margin-top: 24px;
-	width: 80%;
-	border-radius: 6px;
-}
-
-#skillsContainer {
-	width: 45%;
-	margin-left: auto;
-}
-
-#techHeader {
-	margin-bottom: 2rem;
-	font-size: 40px;
-	text-align: center;
-}
-
-.techSubheader {
-	margin-top: 1rem;
-	font-size: 24px;
-}
-
-#about .skillLogo {
-	height: 72x;
-	width: 72px;
-	margin: 0.5rem 0.5rem 0.5rem 0;
-	transition: transform ease 0.3s;
-}
-
-#about .skillLogo:hover {
-	transform: translate(0.2rem, -1rem);
-}
-
-#about .skillLogo * {
-	fill: #fafafa;
+	min-width: 300px;
 }
 
 
+@media (max-width: 1270px) {
+	#descriptionContainer {
+		flex-direction: column;
+		justify-content: center;
+	}
+	#myPictureBox {
+		justify-content: center;
+		margin-bottom: 1rem;
+		transform: translateY(17vh) rotate(-9deg) ;
+	}
+	#aboutText {
+		transform: translateY(8vh);
+		width: 100%;
+	}
+}
 
+@media (max-width: 769px) {
+	#aboutText {
+		hyphens: auto;
+	}
+	#myPictureBox {
+		transform: translateY(19vh) rotate(-9deg) ;
+	}
+}
