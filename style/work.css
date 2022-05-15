@@ -98,17 +98,17 @@
 	transition: var(--slow-transition);
 }
 
-.workButton:hover .label {
+.workButton:hover .label, .workButton:focus-within .label {
 	opacity: 0;
 	visibility: hidden;
 }
 
-.workButton:hover .partButton {
+.workButton:hover .partButton, .workButton:focus-within .partButton {
 	opacity: 100%;
 	visibility: visible;
 }
 
-.workButton:hover .partImage {
+.workButton:hover .partImage, .workButton:focus-within .partImage {
 	opacity: 50%;
 	/* substitute padding for margin to have element static and shadow stick to element */
 	padding: 0;
@@ -117,7 +117,7 @@
 	box-shadow: 0px 0px 40px -5px var(--accent-color);
 }
 
-.workButton:hover .divider {
+.workButton:hover .divider, .workButton:focus-within .divider {
 	opacity: 50%;
 }
 
