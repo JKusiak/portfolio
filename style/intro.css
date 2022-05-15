@@ -15,11 +15,8 @@
 	transition: var(--slow-transition);
 }
 
-#downArrow:hover {
+#downArrow:hover *:not(:first-child), #downArrow:focus *:not(:first-child) {
 	cursor: pointer;
-}
-
-#downArrow:hover *:not(:first-child) {
 	transition: var(--fast-transition);
-	stroke: var(--accent-color);;
+	stroke: var(--accent-color);
 }

@@ -21,7 +21,7 @@
 	transition: var(--fast-transition);
 }
 
-#cvDownloadButton:hover {
+#cvDownloadButton:hover, #cvDownloadButton:focus  {
 	background: var(--secondary-color);
 }
 
@@ -62,10 +62,10 @@
 	transition: var(--fast-transition);
 }
 
-#contact .contactLogo:hover {
-	fill: var(--accent-color);;
+.logoLink:hover {
+	fill: var(--accent-color);
 }
 
-#contact .contactLogo:hover *:not(:first-child){
-	stroke: var(--accent-color);;
+#contact .logoLink:hover *:not(:first-child), #contact .logoLink:focus *:not(:first-child) {
+	stroke: var(--accent-color);
 }

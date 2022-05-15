@@ -122,12 +122,12 @@
 	width: fit-content;
 }
 
-.partButtonIcon *:not(:first-child) {
+.partButtonLink *:not(:first-child) {
 	transition: var(--fast-transition);
 }
 
-.partButtonIcon:hover *:not(:first-child) {
-	stroke: var(--accent-color);;
+.partButtonLink:hover *:not(:first-child), .partButtonLink:focus *:not(:first-child) {
+	stroke: var(--accent-color);
 }
 
 /* tech section */

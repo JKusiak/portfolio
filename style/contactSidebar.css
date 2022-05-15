@@ -22,12 +22,12 @@
 	margin-bottom: 0.5rem;
 }
 
-#contactSidebar .contactLogo:hover {
-	fill: var(--accent-color);;
+#contactSidebar .logoLink:hover, #contactSidebar .logoLink:focus {
+	fill: var(--accent-color);
 }
 
-#contactSidebar .contactLogo:hover *:not(:first-child){
-	stroke: var(--accent-color);;
+#contactSidebar .logoLink:hover *:not(:first-child), #contactSidebar .logoLink:focus *:not(:first-child) {
+	stroke: var(--accent-color);
 }
 
 @media (max-width: 769px) { 

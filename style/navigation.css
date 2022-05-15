@@ -36,12 +36,8 @@ nav {
 	transition: var(--fast-transition);
 }
 
-#navContent a:hover {
+#navContent a:hover, #navContent a:focus, #navContent a.scrollAnimation  {
 	font-weight: 900;
-	color: var(--accent-color);;
+	color: var(--accent-color);
 }
 
-#navContent a.scrollAnimation {
-	font-weight: bold;
-	color: var(--accent-color);;
-}
