@@ -22,7 +22,7 @@
 	margin-bottom: 0.5rem;
 }
 
-#contactSidebar .logoLink:hover, #contactSidebar .logoLink:focus {
+#contactSidebar .contactLogo:hover, #contactSidebar .logoLink:focus .contactLogo {
 	fill: var(--accent-color);
 }
 
