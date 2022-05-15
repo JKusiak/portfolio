@@ -22,7 +22,7 @@ nav {
 	min-width: fit-content;
 	padding-right: min(5vw, 4rem);
 	padding-left: min(5vw, 4rem);
-	font-size: min(5vw, 22px);
+	font-size: var(--regular-font-size);
 	background-color: var(--primary-color);
 	border-bottom: 1px solid var(--secondary-color-dimmed);
 	transition: var(--slow-transition);

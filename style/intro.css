@@ -6,14 +6,11 @@
 	width: 75vw;	
 }
 
-#intro .introText {
-	font-size: var(--header-font-size);
-	text-align: center;
+#introHeader, #downArrow {
 	margin-top: auto;
 }
 
 #downArrow {
-	margin-top: auto;
 	padding-bottom: 24px;
 	transition: var(--slow-transition);
 }

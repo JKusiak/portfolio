@@ -36,7 +36,7 @@
 			</div>
 		</nav>
 
-		<div id="contactSidebar">
+		<aside id="contactSidebar">
 			<a class="logoLink" href="https://www.linkedin.com/in/juliusz-kusiak/" target="_blank" aria-label="LinkedIn">
 				<svg class="contactLogo" xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="#fafafa" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><rect x="36" y="36" width="184" height="184" rx="8" fill="none" stroke="#fafafa" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"></rect><line x1="120" y1="112" x2="120" y2="176" fill="none" stroke="#fafafa" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"></line><line x1="88" y1="112" x2="88" y2="176" fill="none" stroke="#fafafa" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"></line><path d="M120,140a28,28,0,0,1,56,0v36" fill="none" stroke="#fafafa" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"></path><circle cx="88" cy="80" r="8"></circle></svg>
 			</a>
@@ -52,31 +52,32 @@
 			<a class="logoLink" href="https://www.instagram.com/jjkusiak/" target="_blank" aria-label="Instagram">
 				<svg class="contactLogo" xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="#fafafa" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="40" fill="none" stroke="#fafafa" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"></circle><rect x="36" y="36" width="184" height="184" rx="48" fill="none" stroke="#fafafa" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"></rect><circle cx="180" cy="76" r="8"></circle></svg>
 			</a>
-		</div>
+		</aside>
+
 		<section id="intro">
-			<div class="introText">
-				Hi, I'm Juliusz and I create solutions for the web
-			</div>
-			<a id="downArrow" href="/index.html#about">
+			<header id="introHeader">
+				<h1>Hi, I'm Juliusz and I create solutions for the web</h1>
+			</header>
+			<a id="downArrow" href="/index.html#about" aria-label="Scroll down arrow">
 				<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" fill="#000000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><polyline points="208 96 128 176 48 96" fill="none" stroke="#fafafa" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"></polyline></svg>
 			</a>
 		</section>
+
 		<section id="about">
 			<div id="descriptionContainer">
-				<div id="aboutText">
+				<p id="aboutText">
 					My name is Juliusz Kusiak and I'm a junior software engineer focused on full stack web development. I love creating solutions that serve real purpose, are intuitive and pleasant to use.
 					<br /> <br />
 					In my work I strive to incorporate the client-first approach. I love learning about both new technologies and techniques of collaboration with others.
 					<br /> <br />
 					Besides creating software, I love keelboat sailing, backpacking and mountain hiking. I am always keen on trying out new things.
-				</div>
+				</p>
 				<div id="myPictureBox">
 					<img id="myPicture" src="/utils/me.png" alt="Picture of myself" />
 				</div>
 			</div>
 		</section>
 			
-		
 		<div class="wave reverse">
 			<svg class="waveFillSvg" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1980 300" width="100%" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><path d="M0 115L55 108C110 101 220 87 330 107C440 127 550 181 660 199.7C770 218.3 880 201.7 990 182.5C1100 163.3 1210 141.7 1320 118.7C1430 95.7 1540 71.3 1650 65.3C1760 59.3 1870 71.7 1925 77.8L1980 84L1980 0L1925 0C1870 0 1760 0 1650 0C1540 0 1430 0 1320 0C1210 0 1100 0 990 0C880 0 770 0 660 0C550 0 440 0 330 0C220 0 110 0 55 0L0 0Z" stroke-linecap="round" stroke-linejoin="miter"></path></svg>
 			<svg class="waveOutlineSvg" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1980 300" width="100%" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><path d="M0 115L55 108C110 101 220 87 330 107C440 127 550 181 660 199.7C770 218.3 880 201.7 990 182.5C1100 163.3 1210 141.7 1320 118.7C1430 95.7 1540 71.3 1650 65.3C1760 59.3 1870 71.7 1925 77.8L1980 84L19800Z"></path></svg>
@@ -84,7 +85,9 @@
 
 		<section id="work">
 			<div id="workContainer">
-				<div id="workHeader">Some of my projects</div>
+				<header id="workHeader">
+					<h2>Some of my projects</h2>
+				</header>
 				<div id="workGrid">
 					<div class="workButton" tabindex="0">
 						<img class="partImage" src="/utils/marnie022.jpg" alt="Bug tracker website screenshot" />
@@ -141,9 +144,9 @@
 					</div>
 				</div>
 
-				<div id="techHeader">
-					Tech I like to use
-				</div>
+				<header id="techHeader">
+					<h2>Tech I like to use</h2>
+				</header>
 				<div id="techDisplay">
 					<div class="techSubheader">
 						Front end:
@@ -233,10 +236,9 @@
 		</div>
 
 		<section id="contact">
-		
-			<div id="callText">
-				Let's get in touch
-			</div>
+			<header id="callHeader">
+				<h1>Let's get in touch</h1>
+			</header>
 			<a id="cvDownloadButton" href="../utils/Juliusz_Kusiak_CV.pdf" download="juliusz_kusiak_cv">
 				<svg id="cvDownloadImage" xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="#141414" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><polyline points="86 110 128 152 170 110" fill="none" stroke="#141414" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></polyline><line x1="128" y1="40" x2="128" y2="152" fill="none" stroke="#141414" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></line><path d="M216,152v56a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V152" fill="none" stroke="#141414" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></path></svg>
 				<span id="cvText">CV</span> 

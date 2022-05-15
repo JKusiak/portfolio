@@ -6,8 +6,9 @@
 	--accent-color-dimmed: #f48fb180;
 	--fast-transition: all ease 0.3s;
 	--slow-transition: all ease 0.5s;
-	--header-font-size: calc(22px + 4vw);
-	--subheader-font-size: calc(16px + 2vw);
+	--header-font-size: calc(26px + 4vw);
+	--subheader-font-size: calc(22px + 2vw);
+	--regular-font-size: min(5vw, 22px);
 	--navigation-height: max(5vh, 45px);
 }
 
@@ -34,6 +35,28 @@ body {
 a {
 	text-decoration: none;
 	color: var(--secondary-color);
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+	font-size: var(--header-font-size);
+	font-weight: normal;
+}
+
+h2 {
+	width: fit-content;
+	padding-right: min(5vw, 4rem);
+	padding-left: min(5vw, 4rem);
+	padding-bottom: 1rem;
+	border-bottom: 1px solid var(--secondary-color-dimmed);
+	text-align: center;
+	font-size: var(--subheader-font-size);
+	font-weight: normal;
+}
+
+p {
+	font-size: var(--regular-font-size);
 }
 
 @media (min-width: 769px) and (max-width: 1270px) {

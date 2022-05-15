@@ -8,11 +8,6 @@
 	transform: translateY(-11vh)
 }
 
-#callText {
-	font-size: var(--header-font-size);
-	text-align: center;
-}
-
 #cvDownloadButton {
 	display: flex;
 	justify-content: center;
@@ -33,14 +28,8 @@
 #cvText {
 	margin-left: 5%;
 	color: var(--primary-color);
-	font-size: 22px;
+	font-size: var(--regular-font-size);
 	font-weight: 900;
-}
-
-@media (max-width: 769px) {
-	#cvText {
-		font-size: 16px;
-	}
 }
 
 #cvDownloadImage {

@@ -13,16 +13,8 @@
 	margin-top: 5vh;
 }
 
-#workHeader {
-	width: fit-content;
+#workHeader, #techHeader {
 	align-self: center;
-	text-align: center;
-	padding-right: min(5vw, 4rem);
-	padding-left: min(5vw, 4rem);
-	padding-bottom: 1rem;
-	margin-bottom: 3rem;
-	border-bottom: 1px solid var(--secondary-color-dimmed);
-	font-size: var(--subheader-font-size);
 }
 
 #workGrid {
@@ -30,6 +22,7 @@
 	justify-content: center;
 	gap: 5rem;
 	grid-template-columns: repeat(auto-fit, minmax(450px, 550px));
+	margin-top: 2rem;
 	padding-bottom: 25vh;
 }
 
@@ -48,7 +41,6 @@
 	border-radius: 16px;
 	padding: 0.5rem 1rem;
 	backdrop-filter: blur(6px);
-	font-size: min(5vw, 22px);
 	text-align: center;
 	opacity: 100%;
 	transition: var(--slow-transition);
@@ -145,22 +137,8 @@
 	align-self: center;
 }
 
-#techHeader {
-	width: fit-content;
-	align-self: center;
-	text-align: center;
-	padding-right: min(5vw, 4rem);
-	padding-left: min(5vw, 4rem);
-	padding-bottom: 1rem;
-	margin-bottom: 1rem;
-	border-bottom: 1px solid var(--secondary-color-dimmed);
-	text-align: center;
-	font-size: var(--subheader-font-size);
-}	
-
 .techSubheader {
 	margin-top: 2rem;
-	font-size: 24px;
 }
 
 .categorySkillsBar {
@@ -190,13 +168,11 @@
 }
 
 @media (max-width: 769px) {
-	#workHeader {
-		font-size: var(--header-font-size);
+	#workContainer{
+		margin-top: 0;
 	}
+
 	#workGrid{
 		grid-template-columns: repeat(auto-fit, minmax(75vw, 1fr));
-	}
-	#techHeader {
-		font-size: var(--header-font-size);
 	}
 }
