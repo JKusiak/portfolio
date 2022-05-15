@@ -49,6 +49,7 @@
 	padding: 0.5rem 1rem;
 	backdrop-filter: blur(6px);
 	font-size: min(5vw, 22px);
+	text-align: center;
 	opacity: 100%;
 	transition: var(--slow-transition);
 }
