@@ -45,6 +45,7 @@ h1 {
 }
 
 h2 {
+	margin: 0;
 	width: fit-content;
 	padding-right: min(5vw, 4rem);
 	padding-left: min(5vw, 4rem);
@@ -56,6 +57,7 @@ h2 {
 }
 
 p {
+	margin: 0;
 	font-size: var(--regular-font-size);
 }
 

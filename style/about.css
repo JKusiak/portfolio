@@ -32,11 +32,6 @@
 	transform: translateY(16vh) rotate(11deg);
 }
 
-#myPicture {
-	min-width: 300px;
-}
-
-
 @media (max-width: 1270px) {
 	#descriptionContainer {
 		flex-direction: column;
